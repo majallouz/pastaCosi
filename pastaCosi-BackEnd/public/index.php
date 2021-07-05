@@ -11,6 +11,7 @@ if ($_SERVER['APP_DEBUG']) {
         // changement yasmine
         // changement Dali
         //changement Malek
+        //changement Amira
      Debug::enable();
 }
 
