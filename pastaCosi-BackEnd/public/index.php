@@ -10,6 +10,7 @@ if ($_SERVER['APP_DEBUG']) {
     umask(0000);
         // changement yasmine
         // changement Dali
+        //changement Malek
      Debug::enable();
 }
 
