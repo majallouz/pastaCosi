@@ -16,6 +16,8 @@ class PaymentController extends AbstractController
     /**
      * @Route("/payment", name="payment")
      */
+
+     //cyrine_test
     public function index(): Response
     {
         return $this->json([
