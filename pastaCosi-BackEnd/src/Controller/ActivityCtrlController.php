@@ -28,7 +28,7 @@ class ActivityCtrlController extends AbstractController
 
 
 /**
-* @Route("/activity/getById/{id}", name="getById", methods={"GET"})
+* @Route("/activity/getById/{id}", name="getActivityById", methods={"GET"})
 * @return Response
 *
 */
@@ -70,7 +70,7 @@ public  function getAllActivity(): Response
 
 
 /**
-* @Route("/activity/add/", name="activity", methods={"post"})
+* @Route("/activity/add/", name="addactivity", methods={"post"})
 */
 
 public function addActivity(Request $request)
@@ -116,7 +116,7 @@ public  function updateActivity(Request $request,Activity $activity )
 
 
 /**
-* @Route("/activity/delete/{id}", name="delete", methods={"delete"})
+* @Route("/activity/delete/{id}", name="deleteActivity", methods={"delete"})
 * @return Response
 *
 */
